@@ -30,6 +30,8 @@ group :development do
   gem 'guard-rubocop'
   gem 'rubocop', '~> 0.23'
   gem 'rubocop-checkstyle_formatter'
+  gem 'brakeman'
+  gem 'metric_fu'
 end
 
 group :development, :test do
