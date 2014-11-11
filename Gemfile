@@ -33,7 +33,14 @@ group :development do
 end
 
 group :development, :test do
+  gem 'ci_reporter'
   gem 'ci_reporter_test_unit'
+end
+
+group :test do
+  gem 'simplecov', :require => false
+  gem 'simplecov-rcov', :require => false
+  gem 'simplecov-rcov-text', :require => false
 end
 
 # Use ActiveModel has_secure_password
