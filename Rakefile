@@ -4,7 +4,7 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-require 'ci/reporter/rake/test_unit'
+require 'ci/reporter/rake/minitest'
 
 Rails.application.load_tasks
 

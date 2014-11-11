@@ -34,7 +34,7 @@ end
 
 group :development, :test do
   gem 'ci_reporter'
-  gem 'ci_reporter_test_unit'
+  gem 'ci_reporter_minitest'
 end
 
 group :test do
